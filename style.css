@@ -4,6 +4,7 @@ body, html{
 }
 *{
 	font-family: Montserrat;
+	user-select: none;
 }
 ul{
 	margin: 0;
@@ -58,6 +59,13 @@ header{
 	width: 30px;
 	cursor: pointer;
 	display: none;
+}
+
+.line{
+	height: 2px;
+	background-color: #eeeeee;
+	margin-top: 55px;
+	margin-bottom: 55px;
 }
 
 @media screen and (max-width: 800px){
