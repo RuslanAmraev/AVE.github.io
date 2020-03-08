@@ -208,12 +208,14 @@
 
 .category-menu-list{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .good-card{
 	width: 420px;
 	height: 500px;
 	margin-right: 30px;
+	position: relative;
 }
 
 .good-image{
@@ -235,6 +237,7 @@
 	color: rgba(154, 154, 154, 255);
 	font-size: 19px;
 	padding: 15px 15px;
+	margin: 0;
 }
 
 .good-card-desc{
@@ -246,6 +249,8 @@
 	display: none;
 	padding-top: 25px;
 	text-align: center;
+	position: absolute;
+	bottom: -1;
 }
 
 .good-card-name{
