@@ -212,14 +212,23 @@
 }
 
 .good-card{
-	width: 420px;
+	width: 48%;
 	height: 500px;
-	margin-right: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.good-card-big{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 30px;
+	margin: 30 auto 0 auto;
 	position: relative;
 }
 
 .good-image{
 	background-size: cover;
+	background-position: center;
 	height: 100%;
 	width: 100%;
 }
@@ -230,7 +239,22 @@
 
 .good-2{
 	background-image: url(./Icons/good-2.png);
+}
 
+.good-3{
+	background-image: url(./Icons/good-3.png);
+}
+
+.good-4{
+	background-image: url(./Icons/good-4.png);
+}
+
+.good-5{
+	background-image: url(./Icons/good-5.png);
+}
+
+.good-6{
+	background-image: url(./Icons/good-6.png);
 }
 
 .good-price{
@@ -246,11 +270,12 @@
 	-webkit-box-shadow: 0px 17px 48px -15px rgba(0,0,0,0.56);
 	-moz-box-shadow: 0px 17px 48px -15px rgba(0,0,0,0.56);
 	box-shadow: 0px 17px 48px -15px rgba(0,0,0,0.56);
-	display: none;
 	padding-top: 25px;
 	text-align: center;
+	z-index: 2;
 	position: absolute;
-	bottom: -1;
+	padding-bottom: 10px;
+	display: none;
 }
 
 .good-card-name{
@@ -260,4 +285,29 @@
 
 .good-card:hover .good-card-desc{
 	display: block;
+}
+
+.good-card-big:hover .good-card-desc{
+	display: block;
+}
+
+.goods-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 50%;
+	padding: 1%;
+	position: relative;
+}
+
+.main-goods{
+	display: flex;
+}
+
+.look-book-wrapper{
+	display: flex;
+}
+
+.look-book-card{
+	display: flex;
 }
