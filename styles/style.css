@@ -13,52 +13,23 @@ ul{
 li{
 	list-style: none;
 }
-header{
-	display: flex;
-	justify-content: space-between;
-	background-color: #333333;
-	height: 5vh;
-	color: #777777;
-}
 
 .d-flex{
 	display: flex;
 }
 
 .container{
-	padding: 0 15%;
+	padding: 0 10%;
 }
-
-.header-menu{
-	display: flex;
-}	
 
 .pointer{
 	cursor: pointer;
 }	
 
-.header-menu div:first-child{
-	margin-right: 30px;
-}
-
 .text-center{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.header-cart{
-	background-color: #fff;
-	background-color: #00c8c8;
-	color: #fff;
-	width: 150px;
-	margin-left: 80px;
-}
-
-.header-menu-icon{
-	width: 30px;
-	cursor: pointer;
-	display: none;
 }
 
 .line{
@@ -67,6 +38,11 @@ header{
 	margin-top: 55px;
 	margin-bottom: 55px;
 }
+
+.light-text{
+	font-weight: 500;
+}
+
 
 @media screen and (max-width: 800px){
 	.container{
@@ -77,14 +53,5 @@ header{
 @media screen and (max-width: 700px){
 	.container{
 		padding: 0 5%;
-	}
-}
-
-@media only screen and (max-width: 590px) {
-	.header-menu{
-		display: none;
-	}
-	.header-menu-icon{
-		display: block;
 	}
 }

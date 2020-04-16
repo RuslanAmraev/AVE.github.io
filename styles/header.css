@@ -1,0 +1,41 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #333333;
+	height: 5vh;
+	color: #777777;
+}
+
+.header-menu{
+	display: flex;
+}
+
+.header-menu div:first-child{
+	margin-right: 30px;
+}
+
+.header-cart{
+	background-color: #00c8c8;
+	color: #fff;
+	width: 150px;
+	margin-left: 80px;
+}
+
+.header-cart:hover{
+	background-color: #00bfbf;
+}
+
+.header-menu-icon{
+	width: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+@media only screen and (max-width: 590px) {
+	.header-menu{
+		display: none;
+	}
+	.header-menu-icon{
+		display: block;
+	}
+}
