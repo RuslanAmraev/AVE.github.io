@@ -22,6 +22,10 @@ li{
 	padding: 0 10%;
 }
 
+.container-300{
+	padding: 0 300px;
+} 
+
 .pointer{
 	cursor: pointer;
 }	
@@ -43,6 +47,17 @@ li{
 	font-weight: 500;
 }
 
+.j-c-sb{
+	justify-content: space-between;
+}
+
+.mb-50{
+	margin-bottom: 50px;
+}
+
+.mt-100{
+	margin-top: 100px;
+}
 
 @media screen and (max-width: 800px){
 	.container{
