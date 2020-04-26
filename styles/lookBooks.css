@@ -52,8 +52,6 @@
 
 .women{
     background-image: url(../Icons/lookbook-women.png);
-    background-size: 140%;
-    background-position: 100% -5%;
 }
 
 .your{
@@ -69,9 +67,81 @@
     font-size: 23px;
     right: 0;
     margin-top: 0;
-    /* position: absolute; */
     margin-left: calc(100% - 181px);
     outline: none;
     cursor: pointer;
     letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 1770px){
+    .look-book-card{
+        min-width: 40%;
+        margin: 1%;
+    }
+
+    .lookbook-wrapper{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .look-book-card{
+        min-width: 40%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 1900px){
+    .lookbook-img{
+        width: 50%;
+    }
+    .lookbook-info{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1288px){
+    .look-book-card{
+        width: 100%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .look-book-card{
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .lookbook-img{
+        height: 90%;
+        margin-top: auto;
+    }
+    .lookbook-button{
+        width: 70%;
+        margin-left: 30%;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 465px){
+    .lookbook-img{
+        height: 80%;
+        margin-top: auto;
+    }
+    .look-book-card{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 465px){
+    .lookbook-img{
+        height: 80%;
+        margin-top: auto;
+    }
+    .look-book-card{
+        height: 400px;
+    }
 }

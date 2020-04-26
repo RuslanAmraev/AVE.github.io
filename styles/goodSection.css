@@ -115,3 +115,40 @@
 .main-goods{
 	display: flex;
 }
+
+.good-card-icon{
+	width: 20px; 
+}
+
+.icon-box:hover{
+	background-color: #00C8C8;
+}
+
+.icon-box{
+	background-color: #727272; 
+	border-radius: 100%; 
+	padding: 5px;
+	margin: 0 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 860px){
+	.category-menu-items{
+		margin: 0 20px;
+	}
+	.category-menu-list{
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 610px){
+	.lookbook-tittle{
+		font-size: 7vw !important;
+	}
+	.lookbook-info > p{
+		font-size: 2.5vw;
+	}
+}

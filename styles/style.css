@@ -22,7 +22,7 @@ li{
 	padding: 0 10%;
 }
 
-.container-300{
+.footer-container{
 	padding: 0 300px;
 } 
 
@@ -49,6 +49,10 @@ li{
 
 .j-c-sb{
 	justify-content: space-between;
+}
+
+.j-c-c{
+	justify-content: center;
 }
 
 .mb-50{

@@ -5,6 +5,7 @@ footer{
 
 .footer-menu-block{
     color: #727272;
+    margin: 0 20px;
 }
 
 .footer-menu-item{
@@ -25,7 +26,7 @@ footer{
     height: 200px;
     width: 45%;
     color: #fff;
-    font-size: 40px;
+    font-size: 1.7vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +63,64 @@ footer{
     color: #777777;
     background-color: #333333;
     height: 50px;
-    padding: 0 300px;
     margin-top: 50px;
+    align-items: center;
+}
+
+.footer-menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1320px){
+    .social-block{
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1605px){
+    .footer-container{
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .social-icon{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 780px){
+	.footer-authors{
+		font-size: 2.1vw;
+	}
+}
+
+@media screen and (max-width: 1113px){
+    .footer-menu-wrapper{
+        justify-content: center;
+    }
+    .footer-menu-block{
+        margin: 0 70px;
+    }
+}
+
+@media screen and (max-width: 977px){
+    .footer-menu-block{
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .footer-menu-block{
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .footer-menu-block{
+        margin: 0 50px;
+    }
 }
