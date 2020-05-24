@@ -5,7 +5,7 @@ footer{
 
 .footer-menu-block{
     color: #727272;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .footer-menu-item{
@@ -80,7 +80,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1605px){
+@media screen and (max-width: 1701px){
     .footer-container{
         padding: 0 5%;
     }
@@ -98,29 +98,8 @@ footer{
 	}
 }
 
-@media screen and (max-width: 1113px){
+@media screen and (max-width: 1224px){
     .footer-menu-wrapper{
-        justify-content: center;
-    }
-    .footer-menu-block{
-        margin: 0 70px;
-    }
-}
-
-@media screen and (max-width: 977px){
-    .footer-menu-block{
-        margin: 0 30px;
-    }
-}
-
-@media screen and (max-width: 710px){
-    .footer-menu-block{
-        margin: 0 30px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .footer-menu-block{
-        margin: 0 50px;
+        flex: 50%;
     }
 }

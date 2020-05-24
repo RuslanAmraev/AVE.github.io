@@ -33,7 +33,7 @@
     text-transform: uppercase;
     text-align: right;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 3.3vw;
     font-weight: bolder;
     margin-bottom: 30px;
     color: #575153;
@@ -71,6 +71,10 @@
     outline: none;
     cursor: pointer;
     letter-spacing: 2px;
+}
+
+.lookbook-button:hover{
+    background-color:#00d9d9;
 }
 
 
@@ -144,4 +148,13 @@
     .look-book-card{
         height: 400px;
     }
+}
+
+@media screen and (max-width: 610px){
+	.lookbook-tittle{
+		font-size: 5vw !important;
+	}
+	.lookbook-info > p{
+		font-size: 3vw;
+	}
 }

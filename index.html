@@ -16,16 +16,23 @@
 			<div class="text-center pointer">Sign up</div>
 			<div class="header-cart text-center pointer">🛒 empty ˅</div>
 		</div>	
-		<img class="header-menu-icon" src="./Icons/open-menu.svg">
+		<img onclick="showMobileMenu()" class="header-menu-icon" src="./Icons/open-menu.svg">
 	</header>
+	<div class="mobile-menu" id="mobile-menu">
+		<ul>
+			<a class="mobile-menu_item">Register</a>
+			<a class="mobile-menu_item">Sign Up</a>
+			<a class="mobile-menu_item">Cart 🛒</a>
+		</ul>
+	</div>
 	<main class="main container">
 		<div class="main-menu">
 			<div class="main-menu-logo">
 				<p><span>avenue</span> fashion</p>
 			</div>
 			<ul class="main-menu-list">
-				<li onclick="ShowMenu('1-pop-up')">
-					<p>mens</p>
+				<li onclick="showMenu('1-pop-up')">
+					<p><span>mens</span></p>
 					<div id="1-pop-up" class="main-menu-pop-up">
 						<div class="d-flex">
 							<ul>
@@ -48,8 +55,8 @@
 						<img src="./Icons/sale.png">
 					</div>
 				</li>
-				<li onclick="ShowMenu('2-pop-up')">
-					<p>womens</p>
+				<li onclick="showMenu('2-pop-up')">
+					<p><span>womens</span></p>
 					<div id="2-pop-up" class="main-menu-pop-up">
 						<div class="d-flex">
 							<ul>
@@ -72,8 +79,8 @@
 						<img src="./Icons/sale.png">
 					</div>
 				</li>
-				<li onclick="ShowMenu('3-pop-up')">
-					<p>The brand</p>
+				<li onclick="showMenu('3-pop-up')">
+					<p><span>The brand</span></p>
 					<div id="3-pop-up" class="main-menu-pop-up">
 						<div class="d-flex">
 							<ul>
@@ -96,8 +103,8 @@
 						<img src="./Icons/sale.png">
 					</div>
 				</li>
-				<li onclick="ShowMenu('4-pop-up')">
-					<p>Local store</p>
+				<li onclick="showMenu('4-pop-up')">
+					<p><span>ocal store</span></p>
 					<div id="4-pop-up" class="main-menu-pop-up">
 						<div class="d-flex">
 							<ul>
@@ -120,8 +127,8 @@
 						<img src="./Icons/sale.png">
 					</div>
 				</li>
-				<li onclick="ShowMenu('5-pop-up')">
-					<p>Look book</p>
+				<li onclick="showMenu('5-pop-up')">
+					<p><span>Look book</span></p>
 					<div id="5-pop-up" class="main-menu-pop-up">
 						<div class="d-flex">
 							<ul>
@@ -352,12 +359,9 @@
 				</ul>
 				<ul class="footer-menu-block">
 					<p class="footer-menu-block-tittle"><strong>contact details</strong></p>
-					<li class="footer-menu-item">Latest posts</li>
-					<li class="footer-menu-item">Men’s lookbook</li>
-					<li class="footer-menu-item">Women’s lookbook</li>
-					<li class="footer-menu-item">Lookbooks RSS feed</li>
-					<li class="footer-menu-item">View your lookbook</li>
-					<li class="footer-menu-item">Delete your lookbook</li>
+					<p>Head Office: Avenue Fashion,<br>180-182 Regent Street, London.</p>
+					<p>Telephone: 0123-456-789</p>
+					<p>Email: support@yourwebsite.com</p>
 				</ul>
 			</div>
 			<div class="d-flex j-c-sb">

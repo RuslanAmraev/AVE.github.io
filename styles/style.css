@@ -5,6 +5,7 @@ body, html{
 *{
 	font-family: Montserrat;
 	user-select: none;
+	box-sizing: border-box;
 }
 ul{
 	margin: 0;
@@ -61,12 +62,6 @@ li{
 
 .mt-100{
 	margin-top: 100px;
-}
-
-@media screen and (max-width: 800px){
-	.container{
-		padding: 0 10%;
-	}
 }
 
 @media screen and (max-width: 700px){
