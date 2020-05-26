@@ -33,10 +33,10 @@
     text-transform: uppercase;
     text-align: right;
     letter-spacing: 3px;
-    font-size: 3.3vw;
     font-weight: bolder;
     margin-bottom: 30px;
     color: #575153;
+    font-size: calc(12px + 16 * ((100vw - 320px) / (1280 - 320)));
 }
 
 .lookbook-info > p{
@@ -110,6 +110,9 @@
         width: 100%;
         margin: 1%;
     }
+    .lookbook-tittle{
+        font-size: calc(20px + 16 * ((100vw - 320px) / (1280 - 320)));
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -151,9 +154,6 @@
 }
 
 @media screen and (max-width: 610px){
-	.lookbook-tittle{
-		font-size: 5vw !important;
-	}
 	.lookbook-info > p{
 		font-size: 3vw;
 	}
